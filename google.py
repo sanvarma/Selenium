@@ -12,7 +12,7 @@ driver = webdriver.Remote(command_executor='127.0.0.1:4444/wd/hub',desired_capab
 driver.get("https://www.google.com")
 time.sleep(5)
 ele = driver.find_element(By.XPATH, '//*[@href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/"]')
-f = open("/Users/sandeep/Downloads/Testing.txt", "w+")
+f = open("/Testing.txt", "w+")
 if ele.is_displayed() == True :
     f.write(" PASS ")
 else:
