@@ -7,7 +7,7 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 # cap = DesiredCapabilities.FIREFOX.update({["platform"] :"LINUX"}    )
 binary = FirefoxBinary("/Users/sandeep/Downloads/geckodriver")
 #driver = webdriver.Chrome(executable_path='/Users/sandeep/Downloads/chromedriver')
-driver = webdriver.Remote(command_executor='127.0.0.1:4446/wd/hub',desired_capabilities=DesiredCapabilities.CHROME)
+driver = webdriver.Remote(command_executor='127.0.0.1:4444/wd/hub',desired_capabilities=DesiredCapabilities.CHROME)
 
 driver.get("https://www.google.com")
 time.sleep(5)
