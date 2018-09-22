@@ -3,6 +3,6 @@
   tasks:
     - name: "Fetch from jen"
       fetch:
-             src = /var/lib/jenkins/Selenium
+             src = /var/lib/jenkins/workspace/SeleConfig
              dest = /temp/selenium
              flat = yes
