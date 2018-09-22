@@ -1,0 +1,8 @@
+- name: "Release the code"
+  hosts: all
+  tasks:
+    - name: "Fetch from jen"
+      fetch:
+             src = /var/lib/jenkins/Selenium
+             dest = /temp/selenium
+             flat = yes
