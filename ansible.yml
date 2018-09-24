@@ -2,7 +2,7 @@
   hosts: all
   tasks:
     - name: "Fetch from jen"
-      fetch:
-             src = {{path}}
-             dest = /temp/selenium
-             flat = yes
+      synchronize:
+         mode : pull
+         src : /var/lib/jenkins/workspace/
+         dest : /temp/selenium/
