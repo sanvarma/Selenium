@@ -4,5 +4,5 @@
     - name: "Fetch from jen"
       synchronize:
          mode : pull
-         src : /var/lib/jenkins/workspace/
+         src : {{path}}
          dest : /temp/selenium/
