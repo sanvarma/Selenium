@@ -5,4 +5,4 @@
       synchronize:
          mode : pull
          src : {{path}}
-         dest : /temp/selenium/
+         dest : /temp/selenium/ 
