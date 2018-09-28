@@ -4,5 +4,5 @@
     - name: "Fetch from jen"
       synchronize:
          mode : pull
-         src : " {{path}} "
+         src : pathtochange
          dest : /temp/selenium/
